@@ -12,6 +12,11 @@ import championship_2 from "../../Assets/Projects/championship_2.jpg";
 import championship_3 from "../../Assets/Projects/championship_3.png";
 import Mhacks_1 from "../../Assets/Projects/Mhacks_1.png";
 import Mhacks_2 from "../../Assets/Projects/Mhacks_2.png";
+import Curly_1 from "../../Assets/Projects/Curly_1.jpg";
+import Curly_2 from "../../Assets/Projects/Curly_2.png";
+import Atombot_1 from "../../Assets/Projects/Atombot_1.jpg";
+
+
 
 function Projects() {
   return (
@@ -25,6 +30,29 @@ function Projects() {
           Here are a few projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        
+
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPaths={[Curly_1, Curly_2]}
+              isBlog={false}
+              title="Umich Curly Lab- ASV Project"
+              description="This is a autonomous surface vehicle built by Umich Curly Lab. 
+              The ASV is capable of autonomous navigation, obstacle avoidance, and data collection. I am responsible for the mechanical design, fabrication, deploying and tuning the MPC controller. There is still a lot of work to do."
+            />
+        </Col>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPaths={[Atombot_1]}
+              isBlog={false}
+              title="Atombot-Swarm Robots Research"
+              description="This is a research under Umich MDP Program, the research is led by Professor Y.Z., aiming to study swarm intelligence for robots with brownian motion. In the picture is a tiny robot independently designed
+              and built by me, which is capable of moving in all direction."
+            />
+        </Col>
+
         <Col md={4} className="project-card">
             <ProjectCard
               imgPaths={[Mhacks_2, Mhacks_1]}
