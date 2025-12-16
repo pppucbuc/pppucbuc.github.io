@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import Toolstack from "./Toolstack";
 
+
 function About() {
   return (
     <Container fluid className="about-section">
@@ -33,7 +34,7 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col> */}
         </Row>
-        <h1 className="project-heading">
+        {/* <h1 className="project-heading">
           Professional <strong className="cyan">Skillset </strong>
         </h1>
 
@@ -42,7 +43,7 @@ function About() {
         <h1 className="project-heading">
           <strong className="orange">Tools</strong> I use
         </h1>
-        <Toolstack />
+        <Toolstack /> */}
 
         <Github />
       </Container>

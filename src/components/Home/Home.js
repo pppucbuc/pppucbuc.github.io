@@ -1,8 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/Projects/championship_3.png";
+import homeLogo from "../../Assets/Projects/fishing.jpg";
 import Particle from "../Particle";
-import Home2 from "./Home2";
 import Type from "./Type";
 
 function Home() {
@@ -35,14 +34,13 @@ function Home() {
           src={homeLogo}
           alt="home pic"
           // className="img-fluid"
-          style={{ width: "150%", height: "auto", marginLeft: "-40%" }} // Adjust width and height as needed
+          style={{ width: "90%", height: "100%", marginLeft: "0%" }} // Adjust width and height as needed
           />
           </Col>
 
           </Row>
         </Container>
       </Container>
-      <Home2 />
     </section>
   );
 }
